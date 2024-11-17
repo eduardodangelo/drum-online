@@ -1,0 +1,52 @@
+body{
+  background-image: url(https://images.unsplash.com/photo-1571330057255-f0f001a8ae24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1268&q=80);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+
+.container {
+  width: 75%;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  height: 50vh;
+  }
+
+  .keyboard{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75vh;
+  }
+
+.key{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #fa917e;
+  border-radius: 6px;
+  transition: all .07s ease;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+}
+.key > p{
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.sound p{
+  margin-bottom: 0;
+  margin-top: 0;
+  color: orange;
+}
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 8px #ffc600;
+}
