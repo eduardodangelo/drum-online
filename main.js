@@ -1,4 +1,5 @@
 //play sound function
+
 const playSound = (event) => {
   const audio = document.querySelector(`audio[data-key = "${event.keyCode}"]`);
 
